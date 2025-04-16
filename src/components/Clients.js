@@ -5,22 +5,22 @@ export function Clients() {
             <p class="clients__title">Nossos Clientes</p>
             <div class="clients__grid">
                 <div class="clients__card">
-                    <img src="./src/assets/imgs/logo.png" alt="Logo" class="card__img" />
+                    <img src="./public/assets/imgs/logo.png" alt="Logo" class="card__img" />
                 </div>
                 <div class="clients__card">
-                    <img src="./src/assets/imgs/logo.png" alt="Logo" class="card__img" />
+                    <img src="./public/assets/imgs/logo.png" alt="Logo" class="card__img" />
                 </div>
                 <div class="clients__card">
-                    <img src="./src/assets/imgs/logo.png" alt="Logo" class="card__img" />
+                    <img src="./public/assets/imgs/logo.png" alt="Logo" class="card__img" />
                 </div>
                 <div class="clients__card">
-                    <img src="./src/assets/imgs/logo.png" alt="Logo" class="card__img" />
+                    <img src="./public/assets/imgs/logo.png" alt="Logo" class="card__img" />
                 </div>
                 <div class="clients__card">
-                    <img src="./src/assets/imgs/logo.png" alt="Logo" class="card__img" />
+                    <img src="./public/assets/imgs/logo.png" alt="Logo" class="card__img" />
                 </div>
                 <div class="clients__card">
-                    <img src="./src/assets/imgs/logo.png" alt="Logo" class="card__img" />
+                    <img src="./public/assets/imgs/logo.png" alt="Logo" class="card__img" />
                 </div>
             </div>
         </div>
