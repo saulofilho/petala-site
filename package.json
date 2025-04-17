@@ -10,5 +10,9 @@
   },
   "devDependencies": {
     "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "swiper": "^11.2.6",
+    "typed.js": "^2.1.0"
   }
 }

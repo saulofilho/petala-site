@@ -2,7 +2,7 @@ export function About() {
     const body = document.createElement('section');
     body.innerHTML = `
         <div class="projects">
-            <div class="projects__grid">
+            <div class="projects-grid">
                 <div class="card">
                     <p class="card__title">Nossa História</p>
                     <p class="card__desc">
