@@ -25,6 +25,11 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  background-color: #FFD1DC; 
+  background: -webkit-linear-gradient(135deg, #BFD7ED 0%, #D7BDE2 50%, #F5B7B1 100%);
+  background: linear-gradient(135deg, #BFD7ED 0%, #D7BDE2 50%, #F5B7B1 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 section {
@@ -106,20 +111,21 @@ main {
   flex-direction: column;
 }
 
-.card__title {
+.card-title {
   margin-top: 1rem;
   font-size: 1rem;
   text-transform: uppercase;
   font-family: "Special Gothic Expanded One", sans-serif;
 }
 
-.card__desc {
+.card-desc {
   margin-top: 0.5rem;
   font-size: 0.8rem;
   line-height: 1.4;
   flex-grow: 1;
   font-family: "Roboto Flex", sans-serif;
   font-size: 18px;
+  padding-bottom: 50px;
 }
 
 .card__sep {
@@ -134,16 +140,15 @@ main {
   padding: 16em 0;
 }
 
-.card__img {
+.card-img {
   width: 100%;
   object-fit: cover;
-  border-radius: 4px;
 }
 
-.clients__grid {
-  display: flex;
-  gap: 2rem;
-  justify-content: space-between;
+.card-img-about {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .clients-title {
@@ -220,11 +225,6 @@ footer .infos p:last-child {
     padding: 0 5em;
   }
 
-  .projects-grid, .clients__grid {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
   .card, .client__item {
     flex: 1 1 45%;
     margin-bottom: 1rem;
@@ -243,7 +243,7 @@ footer .infos p:last-child {
     padding: 2em 3em;
   }
 
-  .projects-grid, .clients__grid {
+  .projects-grid {
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -284,7 +284,7 @@ footer .infos p:last-child {
     padding: 2em 2em;
   }
 
-  .projects-grid, .clients__grid, .footer-wrapper {
+  .projects-grid, .footer-wrapper {
     flex-direction: column;
     align-items: center;
   }
