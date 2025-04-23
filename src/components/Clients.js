@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
         speed: 1000,
         breakpoints: {
             640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+            slidesPerView: 1,
+            spaceBetween: 10,
             },
         }
         });
@@ -34,13 +34,46 @@ export function Clients() {
                         <img src="./assets/imgs/florestal.jpg" alt="Logo Florestal" class="card__img" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="./assets/imgs/mpr.png" alt="Logo MPR" class="card__img" />
-                    </div>
-                    <div class="swiper-slide">
                         <img src="./assets/imgs/vale.png" alt="Logo Vale Fértil" class="card__img" />
                     </div>
                     <div class="swiper-slide">
-                        <img src="./assets/imgs/logo.png" alt="Logo" class="card__img" />
+                        <img src="./assets/imgs/APACHE_LOGO.png" alt="Logo APACHE_LOGO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/CNA_LOGO_COLORIDO.png" alt="Logo CNA_LOGO_COLORIDO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/COALA_AUTO_LOGO_PRETO.png" alt="Logo COALA_AUTO_LOGO_PRETO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/COALA_BEAUTY_LOGO_COLORIDO.png" alt="Logo COALA_BEAUTY_LOGO_COLORIDO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/COALA_HOME_LOGO_COLORIDO.png" alt="Logo COALA_HOME_LOGO_COLORIDO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/COALA_LOGO_COLORIDO.png" alt="Logo COALA_LOGO_COLORIDO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/COPERALCOOL_BACFREE_LOGO_COLORIDO.png" alt="Logo COPERALCOOL_BACFREE_LOGO_COLORIDO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/MPR_LOGO_COLORIDO.png" alt="Logo MPR_LOGO_COLORIDO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/PET_COALA_LOGO_COLORIDO.png" alt="Logo PET_COALA_LOGO_COLORIDO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/VINAGREEN_LOGO.png" alt="Logo VINAGREEN_LOGO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/ZULU_LOGO_COLORIDO.png" alt="Logo ZULU_LOGO_COLORIDO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/ZULU_PERFUMES_LOGO_COLORIDO.png" alt="Logo ZULU_PERFUMES_LOGO_COLORIDO" class="card__img" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./assets/imgs/ZUMBI_LOGO_COLORIDO.png" alt="Logo ZUMBI_LOGO_COLORIDO" class="card__img" />
                     </div>
                 </div>
             </div>
