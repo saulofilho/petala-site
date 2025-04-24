@@ -9,7 +9,6 @@ export function About() {
                         Ao longo dos anos, mantivemos nossos valores familiares, passando o legado de pai para filho, sempre com o compromisso de excelência e integridade.
                     </p>
                     <img src="./assets/imgs/excellent-review.png" alt="excellent review" class="card-img-about" />
-                    <hr class="card__sep" />
                 </div>
                 <div class="card">
                     <p class="card-title">Missão</p>
@@ -18,7 +17,6 @@ export function About() {
                     most of the time.
                     </p>
                     <img src="./assets/imgs/social-media-post.png" alt="social media post" class="card-img-about" />
-                    <hr class="card__sep" />
                 </div>
                 <div class="card">
                     <p class="card-title">Visão</p>
@@ -26,7 +24,6 @@ export function About() {
                         Ser referência nacional em representações comerciais, reconhecida pela confiança, tradição e resultados.
                     </p>
                     <img src="./assets/imgs/business-idea.png" alt="business idea" class="card-img-about" />
-                    <hr class="card__sep" />
                 </div>
             </div>
         </div>

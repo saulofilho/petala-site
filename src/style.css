@@ -47,7 +47,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 3em 6em;
+  padding: 3em 10em;
   position: fixed;
 }
 
@@ -80,10 +80,6 @@ main {
   padding: 50px 0 0 0;
 }
 
-.logo img {
-  width: 100px;
-}
-
 .typed-cursor {
   display: none;
 }
@@ -91,12 +87,6 @@ main {
 .projects {
   width: 100%;
   padding: 0 10em;
-}
-
-.projects__title {
-  font-size: 0.9rem;
-  letter-spacing: 0.1em;
-  margin-bottom: 1.5rem;
 }
 
 .projects-grid {
@@ -109,11 +99,24 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  background-image: linear-gradient(transparent),
+                    linear-gradient(45deg, #ff6ec4, #7873f5); /* degradê da borda */
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .card-title {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 18px;
   text-transform: uppercase;
   font-family: "Special Gothic Expanded One", sans-serif;
 }
@@ -124,14 +127,8 @@ main {
   line-height: 1.4;
   flex-grow: 1;
   font-family: "Roboto Flex", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   padding-bottom: 50px;
-}
-
-.card__sep {
-  border: none;
-  border-bottom: 2px solid black;
-  padding: 30px 0;
 }
 
 .clients {
@@ -155,7 +152,7 @@ main {
   font-family: "Special Gothic Expanded One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 50px;
   padding: 50px 0 200px 0;
   text-align: center;
@@ -220,14 +217,21 @@ footer .infos p:last-child {
   text-align: center;
 }
 
-@media (max-width: 1200px) {
-  .projects, .clients {
-    padding: 0 5em;
+@media (min-width: 768px) and (max-width: 1000px) {
+  main {
+    height: 100%;
   }
 
-  .card, .client__item {
-    flex: 1 1 45%;
-    margin-bottom: 1rem;
+  .main-text {
+    padding: 5em 2em;
+  }
+
+  header {
+    padding: 2em 2em;
+  }
+
+  .projects {
+    padding: 0 2em;
   }
 }
 
@@ -235,6 +239,7 @@ footer .infos p:last-child {
   main {
     height: 100%;
   }
+
   .projects, .clients {
     padding: 0 2em;
   }
@@ -252,6 +257,10 @@ footer .infos p:last-child {
     flex: 1 1 100%;
   }
 
+  .main-text {
+    padding: 5em 2em;
+  }
+
   .main-title {
     font-size: 30px;
     padding: 20px 0;
@@ -267,6 +276,7 @@ footer .infos p:last-child {
   }
 
   .clients-title {
+    font-size: 20px;
     padding: 50px 0 50px 0;
   }
 }
@@ -280,6 +290,23 @@ footer .infos p:last-child {
     padding: 5em 2em;
   }
 
+  .main-title {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .main-subtitle {
+    font-size: 16px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .card-desc {
+    font-size: 14px;
+  }
+  
   .projects, .clients {
     padding: 2em 2em;
   }
@@ -294,8 +321,16 @@ footer .infos p:last-child {
     margin-bottom: 1.5rem;
   }
 
+  .swiper-slide img {
+    max-height: 100px;
+  }
+  
   footer {
     padding: 2em 1em;
+  }
+
+  footer .infos p:last-child {
+    font-size: 14px;
   }
 
   .copyright {

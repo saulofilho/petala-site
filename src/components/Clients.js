@@ -5,19 +5,19 @@ import 'swiper/css/navigation';
 
 document.addEventListener('DOMContentLoaded', function () {
     const swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        spaceBetween: 50,
         modules: [Autoplay],
         loop: true,
         autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-            waitForTransition: true
+            delay: 1,
+            disableOnInteraction: false
         },
         speed: 1000,
         breakpoints: {
             640: {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            },
+            slidesPerView: 5
+            }
         }
         });
   });
@@ -27,7 +27,7 @@ export function Clients() {
     const body = document.createElement('section');
     body.innerHTML = `
         <div class="clients">
-            <p class="clients-title">Nossas Pastas</p>
+            <p class="clients-title">Nossas pastas:</p>
             <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">

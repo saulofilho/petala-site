@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
 export function Header() {
   const header = document.createElement('header');
   header.innerHTML = `
-    <div class="logo">
+    <div>
       <h1>
-      PÉTALA
+        PÉTALA
       <h1/>
       <h1 id="text-typed"><h1/>
   </div>
