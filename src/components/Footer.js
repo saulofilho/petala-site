@@ -3,7 +3,7 @@ export function Footer() {
   footer.innerHTML = `
     <div class="footer-wrapper">
       <div class="infos">
-        <p>Dê um alô:</p>
+        <p>Dúvidas? Mande a sua mensagem para o nosso email. Responderemos o breve possível.</p>
         <p>lucilenemirandola@gmail.com</p>
       </div>
     </div>

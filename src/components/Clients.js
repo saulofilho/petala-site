@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         });
   });
-  
 
 export function Clients() {
     const body = document.createElement('section');
